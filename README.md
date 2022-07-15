@@ -4,7 +4,7 @@ About Cobra: https://pkg.go.dev/github.com/spf13/cobra
 
 go get -u github.com/spf13/cobra@latest
 
-go install -u github.com/spf13/cobra@latest
+go install github.com/spf13/cobra@latest
 
 go run main.go -h
 
