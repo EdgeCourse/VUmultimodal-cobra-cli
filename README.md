@@ -24,14 +24,14 @@ go run main.go inspect lorem
 go run main.go insp FooBar
 > 'FooBar' has 6 chars
 
-# inspect a string for digits
+# Inspect a string for digits
 go run main.go inspect A1B2C3 --digits
 > 'A2B2C3' has 3 digits
 
 go run main.go insp A1B2C3 -d
 > 'A2B2C3' has 3 digits
 
-# check command help
+# Command help
 go run main.go inspect --help
 
 Inspects a string
